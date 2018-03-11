@@ -3,8 +3,8 @@ error_reporting(E_ALL);
 
 
 $servername = "localhost";
-$username = "mysql";
-$password = "mysql";
+$username = "mslyunkov";
+$password = "neto1520";
 
 $pdo = new PDO("mysql:host=$servername;dbname=todo;charset=utf8", $username, $password);
 if (!$pdo)
